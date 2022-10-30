@@ -8,4 +8,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    if s == s[::-1]:
+        return True
+    else:
+        return False
+print(main("cff"))
+print(main("dcd"))
