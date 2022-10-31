@@ -10,9 +10,9 @@ def main(s):
     """
     a = len(s)//2 -1
     b = len(s)//2
-    if len(s)%2==1 and len(s)>2:
+    if len(s)%2==1 :
         return str(s[b])
-    if len(s)%2==0 and len(s)>2:
+    if len(s)%2==0 :
         return str(s[b]+s[a])
 print(main("abcdf"))
 print(main("cool"))
