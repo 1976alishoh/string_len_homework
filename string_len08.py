@@ -14,5 +14,7 @@ def main(s):
         return str(s[b])
     if len(s)%2==0 :
         return str(s[b]+s[a])
+    if len(s)==2:
+        return s[::-1]
 print(main("abcdf"))
 print(main("cool"))
